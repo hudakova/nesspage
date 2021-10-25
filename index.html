@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal budget</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+
+    <body>
+
+        <header>
+            <h1>PERSONAL BUDGET</h1> 
+        </header>
+
+        <br>
+        <!--icon and the name-->
+        <div id="imag">
+            <img src="assets/name.png" class="icon">
+        </div>
+        <div id="name">
+            <b>John Doe</b>
+        </div>
+        <!--your budget-->
+        <div id="budget">
+            <u>Your budget: 2000</u>
+        </div>
+        
+        <!--remaining money-->
+        <div id="remaining">
+            <br>
+            <br>
+            <p>remaining</p>
+        </div> 
+        <div id="money">
+            <img src="assets/money.png">
+        </div>
+        <div id="number">
+           <script>
+               let num = 1750;
+               document.write(num);
+           </script>
+        </div>
+
+       <!--fields for typing your expences-->
+       <div class="expences">
+           <p>Add expences</p>
+           <div class="inputField">
+            <input type="text" placeholder="Name">
+            <input type="number" placeholder="Price">
+            <button>+</button>
+           </div>
+        </div>
+           <br>
+           <div id="underline">
+            <hr>
+            <!--box with expences-->
+            <div class="nameList">
+                    <ul>
+                        <li>Groceries</li>
+                        <li>Phone</li>
+                    </ul>
+            </div>
+            <div class="priceList">
+                    <ul >
+                        <li>200</li>
+                        <li>50</li>
+                    </ul>
+            </div>
+            </div>
+        <script src="app.js"></script>      
+    </body> 
+</html>

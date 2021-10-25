@@ -1,0 +1,109 @@
+body {
+    background-color: FBFBFB;
+    font-family:sans-serif;
+    color:#4F4747;
+    margin-left: 15%;
+    margin-right: 15%;
+    background: linear-gradient(to bottom, #F9FFD3 0%, #BFFFDC 100%);
+  }
+header{
+    text-align: center;
+    color: #4F4747;   
+}
+#imag{
+  float: left;
+  
+}
+#name{
+  width: 33.33%;
+  float: left;
+  margin-top: 2%;
+  font-size: 150%;
+}
+#budget{
+    width: 33.33%;
+    float: right;
+    margin-top: 2%;
+    text-align: right;
+    font-size: 150%;
+}
+#remaining{
+  width:100%;
+  text-align: center;
+  margin-top: 2.7%;
+  font-size: 125%;
+  
+}
+.icon{
+  height: 90%;
+  width: 90%;
+}
+#money{
+  width: 33.33%;
+  float: left;
+  height: 50px;
+}
+#money img{
+  margin-left: 250px;
+  height: 50px;
+}
+#number{
+  text-align: center;
+  justify-content: center ;
+  font-size: 300%;
+  font-weight: bold;
+  width: 33.33%;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.expences{
+  margin-top: 10px;
+  background-color: white;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 25px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+
+input{
+  width: 250px;
+  height: 25px;
+  border-radius: 5px;
+  border-width: 0.5px;
+}
+button{
+  width: 31px;
+  height: 31px;
+  border-width: 0.5px;
+  border-radius: 5px;
+  background: #4590E9;
+  font-weight: bold;
+  color: white;
+}
+
+
+.nameList ul{
+  list-style: none;
+  text-align: center;
+  height: 300px;
+  float:left
+}
+.priceList ul{
+  list-style: none;
+  text-align: center;
+  height: 300px;
+  float: right;
+}
+.nameList li{
+  text-align: left;
+  width: 50%;
+  list-style: none;
+}
+.priceList li{
+  text-align: right;
+  width: 50%;
+  list-style: none;
+}
+
